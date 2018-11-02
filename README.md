@@ -1,12 +1,3 @@
-<style>
-.notice{
-    color: #009688;
-    background-color: #4caf5059;
-    border-radius: 3px;
-    font-size: 85%;
-    margin: 5%
-}
-</style>
 ## node-template-ex
 
 Boilerplate for `esm` Node.js application that  uses the following development tools:
@@ -16,9 +7,8 @@ Boilerplate for `esm` Node.js application that  uses the following development t
 * sequelize
 * Node v11
 
-<aside class="notice"> The application is ran using the --experimental-modules flag </aside>
-
-
+_The application is ran using the --experimental-modules flag_
+  
 It is recommended to use `yarn` for package management. Install yarn via
 
 ``` 
