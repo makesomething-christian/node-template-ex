@@ -1,3 +1,12 @@
+<style>
+.notice{
+    color: #009688;
+    background-color: #4caf5059;
+    border-radius: 3px;
+    font-size: 85%;
+    margin: 5%
+}
+</style>
 ## node-template-ex
 
 Boilerplate for `esm` Node.js application that  uses the following development tools:
