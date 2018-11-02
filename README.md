@@ -7,11 +7,10 @@ Boilerplate for `esm` Node.js application that  uses the following development t
 * sequelize
 * Node v11
 
-<aside class="notice">
-  The application is ran using the --experimental-modules flag 
-</aside>
+<aside class="notice"> The application is ran using the --experimental-modules flag </aside>
 
-It is reccomended to use `yarn` for package management. Install yarn via
+
+It is recommended to use `yarn` for package management. Install yarn via
 
 ``` 
 brew install yarn
