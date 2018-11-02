@@ -1,0 +1,11 @@
+# modules
+/node_modules
+
+# logs
+yarn-error.log
+
+# config
+config/local.json
+
+# IDE
+.idea

@@ -1,0 +1,7 @@
+import path from 'path'
+
+export default {
+  'config': path.resolve('sequelize', 'config.json'),
+  'migrations-path': path.resolve('sequelize', 'migrations'),
+  'seeders-path': path.resolve('sequelize', 'seeders')
+}

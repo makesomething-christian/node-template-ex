@@ -1,0 +1,9 @@
+{
+  "development": {
+    "username": "dev-user",
+    "password": "test",
+    "database": "node-template-ex",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "extends": "eslint:recommended",
+  "rules": {
+    "semi": [ "error", "never"],
+    "indent": [ "error", 2],
+    "quotes": [ "error", "single", { 
+      "avoidEscape": true
+    }],
+    "comma-dangle": [ "error", "never" ],
+    "comma-style": [ "error", "last" ],
+    "operator-linebreak": [
+      "error",
+      "before"
+    ],
+    "keyword-spacing": [ "error", {
+      "before": true,
+      "after": true
+    }],
+    "arrow-parens": [ "error",  "as-needed"],
+    "no-extra-parens": [ "error", "all", {
+      "conditionalAssign": false,
+      "returnAssign": false,
+      "nestedBinaryExpressions": false,
+      "enforceForArrowConditionals": false
+      }],
+    "newline-per-chained-call": [ "error",{
+      "ignoreChainWithDepth": 2
+    }]
+  },
+  "env": {
+    "node": true,
+    "es6": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  }
+}

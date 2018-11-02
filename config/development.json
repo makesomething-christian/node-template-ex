@@ -1,0 +1,24 @@
+{
+  "db":{
+    "HOST": "",
+    "NAME": "",
+    "USER": "",
+    "PASSWORD": ""
+  },
+  "server":{
+    "HOST": "",
+    "PORT":""
+  },
+  "api":{
+    "VERSION": "",
+    "PREFIX": ""
+  },
+  "mail":{
+    "SUPPORT": "",
+    "CREDENTIALS":{
+      "user": "",
+      "pass": ""
+    },
+    "HOST": ""
+  }
+}

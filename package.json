@@ -1,0 +1,31 @@
+{
+  "name": "node-template-ex",
+  "version": "0.0.1",
+  "description": "template for node",
+  "main": "index.mjs",
+  "scripts": {
+    "start": "node --experimental-modules index.mjs",
+    "dev": "nodemon --experimental-modules index.mjs | pino-pretty --colorize",
+    "debug": "DEBUG=*  yarn dev",
+    "lint": "eslint . --ext .mjs,.js",
+    "migrate": "sequelize-esm db:migrate",
+    "seed": "sequelize-esm db:seed:all",
+    "migrate:undo": "sequelize-esm db:migrate:undo",
+    "migrate:change": "yarn migrate:undo &&  yarn migrate"
+  },
+  "author": "makesomething.io <christian@makesomething.io>",
+  "license": "WTFPL",
+  "devDependencies": {
+    "debug": "^4.1.0",
+    "eslint": "^5.7.0"
+  },
+  "dependencies": {
+    "hapi": "^17.6.0",
+    "hapi-pino": "^5.1.0",
+    "pg": "^7.5.0",
+    "pg-hstore": "^2.3.2",
+    "pino": "^5.8.0",
+    "sequelize": "^4.41.0",
+    "sequelize-cli": "^5.2.0"
+  }
+}
